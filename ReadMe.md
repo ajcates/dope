@@ -32,7 +32,17 @@ as simple as the Hello World code on the node.js homepage.
 
     console.log "w00t da server running @ \nhttp://127.0.0.1:1337/"
 
-This code would normally run inside a index.coffee a directory above dope. This way
-you can keep dope as a Git submodule inside your project. I have even set up some 
-what of a boiler plate for [dope] called crack to help you get started faster on
+This code would normally run inside a index.coffee a directory above dope like so:
+    
+    YOUR-PROJECT/
+    |~app/
+    | |~controllers/
+    | | `-index.coffee
+    | `+lib/
+    |~dope/
+    | |+lib/
+    `-index.coffee
+
+This way you can keep dope as a Git submodule inside your project. I have even set up some 
+what of a boiler plate for [dope] called crack to help you get started even faster on
 your projects.
